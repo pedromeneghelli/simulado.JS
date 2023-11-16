@@ -1,5 +1,3 @@
-
-
 function imc(peso, altura) {
   return peso / (altura * altura);
 }
@@ -40,6 +38,4 @@ for (var i = 0; i < 10; i++) {
     `Pessoa ${i + 1}: IMC = ${calculoIMC.toFixed(2)}, Classificação = ${tipos}`
   );
 }
-VM62:39 Pessoa 1: IMC = 170.00, Classificação = Obesidade classe 3
-VM62:26 Terminando o programa
-undefined
+
